@@ -23,8 +23,8 @@ def is_valid_email(email):
             dns.resolver.NoAnswer, dns.resolver.NXDOMAIN):
         return False
 
-# Example usage
-email = 'crce.9594.ce@gmail.com'
+# Works Better for @gmail.com 
+email = 'kyathamaryan@gmail.com' 
 if is_valid_email(email):
     print("Email exists")
 else:
