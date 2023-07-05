@@ -23,7 +23,7 @@ def is_valid_email(email):
             dns.resolver.NoAnswer, dns.resolver.NXDOMAIN):
         return False
 
-# Example usage
+# Works best for @gmail.com
 input_email = input('Enter Email Address :')
 
 if is_valid_email(input_email):
